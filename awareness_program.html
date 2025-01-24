@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awareness Programs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+            text-align: center;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .loading-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+        .loading-button:disabled {
+            background-color: #ddd;
+            cursor: not-allowed;
+        }
+        .game-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .trash-can {
+            width: 50px;
+            height: 100px;
+            background-color: #4CAF50;
+            border-radius: 5px;
+            margin: 0 10px;
+            cursor: pointer;
+            position: relative;
+            transition: transform 0.3s;
+        }
+        .trash-can:hover {
+            background-color: #45a049;
+            transform: scale(1.1);
+        }
+        .hidden-item {
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: none;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Awareness Programs</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#game">Game</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Awareness Programs</h2>
+            <p>Learn about the environmental impacts of paper cup usage and how you can make a difference.</p>
+
+<p>Paper cups might seem convenient, but they have several negative impacts on the environment:</p>
+
+   <p> ### Environmental Impacts of Paper Cups</p>
+<li>1. Deforestation: The production of paper cups requires a significant amount of wood, leading to deforestation and loss of biodiversity.</li>
+<li>2. Water Consumption: Manufacturing paper cups consumes a large amount of water, contributing to water scarcity in some regions.</li>
+<li>3. Energy Use: The production process is energy-intensive, leading to increased carbon emissions and contributing to climate change.</li>
+
+<li>4. Plastic Lining: Most paper cups are lined with a thin layer of plastic to make them waterproof. This plastic lining makes recycling difficult and often leads to the cups ending up in landfills.</li>
+
+<li>5. Waste Generation: Single-use paper cups contribute to a significant amount of waste. They are often not recycled due to the plastic lining, leading to increased landfill waste.</li>
+
+<li>6. Pollution: The production and disposal of paper cups contribute to air and water pollution. The chemicals used in the manufacturing process can contaminate water sources and harm aquatic life.</li>
+
+<li>7. Carbon Footprint: The entire lifecycle of a paper cup, from production to disposal, results in a considerable carbon footprint, contributing to global warming.</li>
+
+
+<p>By understanding these impacts, we can make more informed choices and opt for sustainable alternatives like reusable cups or biodegradable options. If you have any more questions or need further information, feel free to ask!</p>
+            <h3>Key Topics</h3>
+            <ul>
+                <li><strong>Environmental Impact of Paper Cups</strong>: Understand how paper cups contribute to pollution and waste.</li>
+                <li><strong>Benefits of Using Reusable Cups</strong>: Discover the advantages of switching to reusable cups for both the environment and your health.</li>
+                <li><strong>How to Reduce Paper Cup Usage</strong>: Practical tips and strategies to minimize your reliance on single-use paper cups.</li>
+                <li><strong>Alternatives to Paper Cups</strong>: Explore eco-friendly alternatives such as biodegradable cups, reusable mugs, and more.</li>
+                <li><strong>Success Stories and Case Studies</strong>: Learn from successful initiatives and case studies that have significantly reduced paper cup usage.</li>
+            </ul>
+            <h3>Sites You Should Visit to Enhance Your Knowledge</h3>
+            <div class="button-container">
+                <a href="https://www.worldwildlife.org/" class="button">Site 1</a>
+                <a href="https://www.epa.gov/" class="button">Site 2</a>
+                <a href="https://zerowastehome.com/" class="button">Site 3</a>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to raising awareness about the negative environmental impacts of paper cup usage and promoting sustainable alternatives.</p>
+            <h3>Biodegradable Paper Cups</h3>
+            <p>Biodegradable paper cups are made from materials that can break down naturally in the environment. Unlike traditional paper cups, which are often lined with plastic, biodegradable cups use plant-based materials such as PLA (polylactic acid) for the lining. This makes them compostable and reduces their environmental footprint. By choosing biodegradable paper cups, we can significantly reduce the amount of waste that ends up in landfills and promote a more sustainable future.</p>
+        </section>
+        <section id="programs">
+            <h2>Our Programs</h2>
+            <div class="button-container">
+                <a href="https://www.earthday.org/" class="button">Program 1</a>
+                <a href="https://www.greenpeace.org/" class="button">Program 2</a>
+                <a href="https://sustainablebrands.com/" class="button">Program 3</a>
+            </div>
+        </section>
+        <section id="game">
+            <h2>Fun Game: Find the Hidden Item</h2>
+            <div class="game-container">
+                <div class="trash-can" onclick="checkTrashCan(1)">
+                    <div class="hidden-item" id="item1"></div>
+                </div>
+                <div class="trash-can" onclick="checkTrashCan(2)">
+                    <div class="hidden-item" id="item2"></div>
+                </div>
+                <div class="trash-can" onclick="checkTrashCan(3)">
+                    <div class="hidden-item" id="item3"></div>
+                </div>
+            </div>
+            <p id="game-result"></p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For more information, please contact us at <a href="mailto:info@example.com">info@example.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Awareness Programs. All rights reserved.</p>
+    </footer>
+    <script>
+        function checkTrashCan(trashCanNumber) {
+            const result = document.getElementById('game-result');
+            const item1 = document.getElementById('item1');
+            const item2 = document.getElementById('item2');
+            const item3 = document.getElementById('item3');
+            
+            item1.style.display = 'none';
+            item2.style.display = 'none';
+            item3.style.display = 'none';
+            
+            if (trashCanNumber === 2) {
+                document.getElementById('item2').style.display = 'block';
+                result.textContent = 'Congratulations! You found the hidden item!';
+            } else {
+                result.textContent = 'Try again!';
+            }
+        }
+    </script>
+</body>
+</html>
